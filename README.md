@@ -3,25 +3,31 @@
 
  
 Descripción
-Este es un juego de cartas de estrategia donde compites contra una IA. Tu objetivo es derrotar a la IA reduciendo sus puntos de vida a cero antes de que ella haga lo mismo contigo. Para lograrlo, tendrás que usar cartas de Guardianes, cada una con sus propias estadísticas y habilidades.
+El Juego de Cartas de Guardianes es un juego de estrategia por turnos en el que compites contra una IA para derrotar a los guardianes enemigos. Cada jugador tiene un mazo de cartas de guardianes con atributos como Puntos de Vida (PV), Puntos de Ataque (PA) y Puntos de Defensa (PD). El objetivo es reducir los puntos de vida del oponente a cero antes de que lo hagan contigo.
 
-Reglas del Juego
-Cada jugador (tú y la IA) tiene un monto de 15 cartas.
-En cada turno, tanto el jugador como la IA eligen una carta de su mano para colocarla en la mesa
-Solo las cartas en la mesa pueden usarse en el combate. Cada jugador elige una carta de la mesa para atacar a una carta de la mesa del oponente en su turno.
-El daño infligido durante el combate se calcula restando la Defensa (PD) de la carta atacada del Ataque (PA) de la carta que ataca. Si el resultado es positivo, se resta de los Puntos de Vida (PV) de la carta atacada.
-Cuando una carta en la mesa llega a 0 PV, se retira del juego y se reemplaza por una nueva carta del monto del jugador o la IA.
-El juego continúa hasta que uno de los jugadores (tú o la IA) se queda sin puntos de vida.
+Características
+Creación de Cartas: Puedes crear tus propias cartas de guardianes con diferentes atributos.
+Partidas por Turnos: El juego se desarrolla por turnos, alternando entre el jugador y la IA.
+Ataques y Defensa: Selecciona una carta de tu mano y elige un objetivo para atacar. La IA realiza sus propias acciones.
+Gestión de Puntos de Vida: Mantén un registro de tus puntos de vida y los de la IA.
+Historial de Partidas: El juego guarda un historial de las acciones realizadas durante la partida.
+Visualización de Cartas: Puedes ver las cartas existentes en tu mazo.
+Requisitos de Cartas: Necesitas al menos 6 cartas de guardianes para comenzar una partida.
+Ganador: El juego termina cuando un jugador se queda sin puntos de vida, y se declara al ganador.
+Limpieza de Historial: Puedes limpiar el historial de partidas para mantenerlo organizado.
 
-Cómo Jugar
--Creación de Cartas: Puedes crear tus propias cartas de Guardianes antes de comenzar una partida. Cada carta tiene un nombre, un tipo (magos, vikingos, nigromantes o bestias), PV, PA y PD (Puntos de Vida, Puntos de Ataque y Puntos de Defensa). Estas cartas se agregan a tu mazo.
--Comenzar el Juego: Para comenzar una partida, asegúrate de tener al menos 6 cartas en tu mazo. Luego, inicia el juego y compite contra la IA.
--Turnos: El juego se juega por turnos. En tu turno, elige una carta de tu mano para colocarla en tu lado de la mesa. Luego, selecciona una de tus cartas en la mesa para atacar una carta en la mesa de la IA. Durante el turno de la IA, ella elegirá sus cartas y objetivos automáticamente.
--Historial: El juego registra las acciones realizadas en un historial. Puedes ver el historial en cualquier momento.
--Ganar o Perder: El juego continúa hasta que uno de los jugadores se queda sin puntos de vida. Si la IA se queda sin puntos de vida, ¡ganarás! Si tú te quedas sin puntos de vida, la IA ganará.
-
-Personalización
-Puedes personalizar el juego agregando tus propias cartas de Guardianes. Abre el archivo cartas.txt y sigue el formato para agregar nuevas cartas.
+Crear Nuevas Cartas:
+Selecciona la opción "Crear una nueva carta" en el menú.
+Ingresa el nombre, tipo, PV, PA y PD de la nueva carta cuando se te solicite.
+Comenzar el Juego:
+Asegúrate de tener al menos 6 cartas en tu mazo.
+Selecciona la opción "Comenzar el juego" en el menú.
+Mostrar las Cartas Existentes:
+Selecciona la opción "Mostrar las cartas existentes" en el menú.
+Mostrar Historial:
+Selecciona la opción "Mostrar historial" en el menú para ver las partidas anteriores.
+Salir del Juego:
+Selecciona la opción "Salir" en el menú para cerrar el juego.
 
 Créditos
 Este juego fue desarrollado como un proyecto del curso Algoritmos y Estructuras de Datos. Puedes personalizar, agregar o eliminar cartas a tu manera. 
